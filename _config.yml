@@ -7,7 +7,7 @@ first_name: John
 last_name: Thickstun
 email: jthickstun@stanford.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  John Thickstun's professional website. Based on [*folio](https://github.com/bogoli/-folio) design.
+  John Thickstun's professional website.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
