@@ -2,10 +2,12 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: Past course materials.
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+<a href="https://courses.cs.washington.edu/courses/cse599i/20au/">CSE 599 Generative Models</a>. University of Washington, Autumn 2020. I was the instructor of record for this course. I designed the course materials from scratch, including: lecture notes, lecture slides, and homework.
 
-Organize your courses by years, topics, or universities, however you like!
+<a href="https://courses.cs.washington.edu/courses/cse547/16sp/index.html">CSE 547 / STAT 548 Machine Learning for Big Data</a>. University of Washington, Spring 2016. I was a teaching assistant for this course, which was taught by Sham M. Kakade.
+
+<a href="https://courses.cs.washington.edu/courses/cse546/15au/">CSE 546 Machine Learning</a>. University of Washington, Autumn 2015. I was a teaching assistant for this course, which was taught by Sham M. Kakade.

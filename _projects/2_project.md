@@ -1,9 +1,10 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
-importance: 2
+title: music composition
+description: Generative models are powerful tools for revealing structure in data. Features learned by fitting an unsupervised generative modeling objective can be transferred to other tasks. Or, as see in the source separation project above, we can directly leverage these generative models as priors. A fun aspect of these models is that you can sample from them; a generative model over musical scores can be turned into a kind of automatic music composer (see left). Musical scores are highly structured, heterogenous objects. Their two-dimensional structure is reminiscent of visual data, but their time-series structure and sparsity are reminiscent of language. In contrast to both language and visual imagery, the number of scores in a particular musical genre is limited. This makes score modeling an inherently low-resource learning problem. In work appearing in ISMIR 2019, we discuss domain-specific modeling choices that help maximize what we can learn from limited data. 
+img: assets/img/score.png
+importance: 3
+redirect: https://github.com/jthickstun/ismir2019coupled
 category: work
 ---
 

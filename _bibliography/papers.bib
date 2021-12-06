@@ -1,72 +1,151 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation,}
+@phdthesis{thickstun2021leveraging,
+  title     = {Leveraging Generative Models for Music and Signal Processing},
+  author    = {John Thickstun},
+  year      = {2021},
+  school    = {University of Washington},
+  abbr      = {Dissertation},
+  pdf       = {thickstun_thesis.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics,},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers,}
+@inproceedings{pillutla2021mauve,
+  abstract  = {As major progress is made in open-ended text generation, measuring how close machine-generated text is to human language remains a critical open problem. We introduce MAUVE, a comparison measure for open-ended text generation, which directly compares the learnt distribution from a text generation model to the distribution of human-written text using divergence frontiers. MAUVE scales up to modern text generation models by computing information divergences in a quantized embedding space. Through an extensive empirical study on three open-ended generation tasks, we find that MAUVE identifies known properties of generated text, scales naturally with model size, and correlates with human judgments, with fewer restrictions than existing distributional evaluation metrics.},
+  title     = {MAUVE: measuring the gap between neural text and human text using divergence frontiers},
+  author    = {Krishna Pillutla and Swabha Swayamdipta and Rowan Zellers and John Thickstun and Sean Welleck and Yejin Choi and Zaid Harchaoui},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2021},
+  abbr      = {Neurips},
+  arxiv     = {2102.01454},
+  code      = {https://github.com/krishnap25/mauve-experiments}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.,},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  selected={true}
+@inproceedings{jayaram2021parallel,
+  abstract  = {This paper introduces an alternative approach to sampling from autoregressive models. Autoregressive models are typically sampled sequentially, according to the transition dynamics defined by the model. Instead, we propose a sampling procedure that initializes a sequence with white noise and follows a Markov chain defined by Langevin dynamics on the global log-likelihood of the sequence. This approach parallelizes the sampling process and generalizes to conditional sampling. Using an autoregressive model as a Bayesian prior, we can steer the output of a generative model using a conditional likelihood or constraints. We apply these techniques to autoregressive models in the visual and audio domains, with competitive results for audio source separation, super-resolution, and inpainting.},
+  title     = {Parallel and flexible sampling from autoregressive models via langevin dynamics},
+  author    = {Vivek Jayaram and John Thickstun},
+  booktitle = {International Conference on Machine Learning},
+  volume    = {139},
+  pages     = {4807--4818},
+  year      = {2021},
+  publisher = {PMLR},
+  abbr      = {ICML},
+  arxiv     = {2105.08164},
+  code      = {https://github.com/vivjay30/pnf-sampling/},
+  poster    = {thickstun_langevin_poster.pdf},
+  website   = {https://grail.cs.washington.edu/projects/pnf-sampling/},
+  selected  = {true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik,},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{ainsworth2021faster,
+  abstract  = {We study the estimation of policy gradients for continuous-time systems with known dynamics. By reframing policy learning in continuous-time, we show that it is possible construct a more efficient and accurate gradient estimator. The standard back-propagation through time estimator (BPTT) computes exact gradients for a crude discretization of the continuous-time system. In contrast, we approximate continuous-time gradients in the original system. With the explicit goal of estimating continuous-time gradients, we are able to discretize adaptively and construct a more efficient policy gradient estimator which we call the Continuous-Time Policy Gradient (CTPG). We show that replacing BPTT policy gradients with more efficient CTPG estimates results in faster and more robust learning in a variety of control tasks and simulators.},
+  title     = {Faster Policy Learning with Continuous-Time Gradients},
+  author    = {Samuel K. Ainsworth and Kendall Lowrey and John Thickstun and Zaid Harchaoui and Siddhartha S. Srinivasa},
+  booktitle = {Learning for Dynamics and Control},
+  volume    = {144},
+  pages     = {1054--1067},
+  year      = {2021},
+  publisher = {PMLR},
+  abbr      = {L4DC},
+  arxiv     = {2012.06684},
+  code      = {https://github.com/samuela/ctpg},
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.,},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{thickstun2020rethinking,
+  abstract  = {This paper offers a precise, formal definition of an audio-to-score alignment. While the concept of an alignment is intuitively grasped, this precision affords us new insight into the evaluation of audio-to-score alignment algorithms. Motivated by these insights, we introduce new evaluation metrics for audio-to-score alignment. Using an alignment evaluation dataset derived from pairs of KernScores and MAESTRO performances, we study the behavior of our new metrics and the standard metrics on several classical alignment algorithms.},
+  title     = {Rethinking Evaluation Methodology for Audio-to-Score Alignment},
+  author    = {John Thickstun and Jennifer Brennan and Harsh Verma},
+  year      = {2020},
+  abbr      = {ArXiv},
+  arxiv     = {2009.14374},
+  code      = {https://github.com/jthickstun/alignment-eval}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{paranjape2020information,
+  abstract  = {Decisions of complex language understanding models can be rationalized by limiting their inputs to a relevant subsequence of the original text. A rationale should be as concise as possible without significantly degrading task performance, but this balance can be difficult to achieve in practice. In this paper, we show that it is possible to better manage this trade-off by optimizing a bound on the Information Bottleneck (IB) objective. Our fully unsupervised approach jointly learns an explainer that predicts sparse binary masks over sentences, and an end-task predictor that considers only the extracted rationale. Using IB, we derive a learning objective that allows direct control of mask sparsity levels through a tunable sparse prior. Experiments on ERASER benchmark tasks demonstrate significant gains over norm-minimization techniques for both task performance and agreement with human rationales. Furthermore, we find that in the semi-supervised setting, a modest amount of gold rationales (25\% of training examples) closes the gap with a model that uses the full input.},
+  title     = {An information bottleneck approach for controlling conciseness in rationale extraction},
+  author    = {Bhargavi Paranjape and Mandar Joshi and John Thickstun and Hannaneh Hajishirzi and Luke Zettlemoyer},
+  booktitle = {Conference on Empirical Methods in Natural Language Processing},
+  pages     = {1938--1952},
+  year      = {2020},
+  publisher = {Association for Computational Linguistics},
+  abbr      = {EMNLP},
+  arxiv     = {2005.00652},
+  code      = {https://github.com/bhargaviparanjape/explainable_qa},
+  slides    = {https://bhargaviparanjape.github.io/documents/slides/EMNLP2020_SPARSE_PRIORS.pdf},
 }
+
+@inproceedings{jayaram2020source,
+  abstract  = {Despite substantial progress in signal source separation, results for richly structured data continue to contain perceptible artifacts. In contrast, recent deep generative models can produce authentic samples in a variety of domains that are indistinguishable from samples of the data distribution. This paper introduces a Bayesian approach to source separation that uses generative models as priors over the components of a mixture of sources, and noise-annealed Langevin dynamics to sample from the posterior distribution of sources given a mixture. This decouples the source separation problem from generative modeling, enabling us to directly use cutting-edge generative models as priors. The method achieves state-of-the-art performance for MNIST digit separation. We introduce new methodology for evaluating separation quality on richer datasets, providing quantitative evaluation of separation results on CIFAR-10. We also provide qualitative results on LSUN.},
+  title     = {Source separation with deep generative priors},
+  author    = {Vivek Jayaram and John Thickstun},
+  booktitle = {International Conference on Machine Learning},
+  volume    = {119},
+  pages     = {4724--4735},
+  year      = {2020},
+  publisher = {PMLR},
+  abbr      = {ICML},
+  arxiv     = {2002.07942},
+  code      = {https://github.com/jthickstun/basis-separation},
+  poster    = {thickstun_jayaram_sourcesep_poster.pdf},
+  selected  = {true}
+}
+
+
+@inproceedings{verma2019convolutional,
+  abstract  = {This paper investigates end-to-end learnable models for attributing composers to musical scores. We introduce several pooled, convolutional architectures for this task and draw connections between our approach and classical learning approaches based on global and n-gram features. We evaluate models on a corpus of 2,500 scores from the KernScores collection, authored by a variety of composers spanning the Renaissance era to the early 20th century. This corpus has substantial overlap with the corpora used in several previous, smaller studies; we compare our results on subsets of the corpus to these previous works.},
+  author    = {Harsh Verma and John Thickstun},
+  title     = {Convolutional composer classification},
+  booktitle = {International Society for Music Information Retrieval},
+  pages     = {549--556},
+  year      = {2019},
+  abbr      = {ISMIR},
+  arxiv     = {1911.11737},
+  poster    = {verma_composers_poster.pdf},
+  code      = {https://github.com/harshshredding/Convolutional-Composer-Classification}
+}
+
+@inproceedings{thickstun2018coupled,
+  abstract  = {This paper introduces a novel recurrent model for music composition that is tailored to the structure of polyphonic music. We propose an efficient new conditional probabilistic factorization of musical scores, viewing a score as a collection of concurrent, coupled sequences: i.e. voices. To model the conditional distributions, we borrow ideas from both convolutional and recurrent neural models; we argue that these ideas are natural for capturing music's pitch invariances, temporal structure, and polyphony. We train models for single-voice and multi-voice composition on 2,300 scores from the KernScores dataset.},
+  title     = {Coupled recurrent models for polyphonic music composition},
+  author    = {John Thickstun and Zaid Harchaoui and Dean P Foster and Sham M Kakade},
+  booktitle = {International Society for Music Information Retrieval},
+  pages     = {311--318},
+  year      = {2019},
+  abbr      = {ISMIR},
+  arxiv     = {1811.08045},
+  code      = {https://github.com/jthickstun/ismir2019coupled},
+  poster    = {thickstun_coupled_poster.pdf},
+  selected  = {true}
+}
+
+@inproceedings{thickstun2018invariances,
+  abstract  = {This paper explores a variety of models for frame-based music transcription, with an emphasis on the methods needed to reach state-of-the-art on human recordings. The translation-invariant network discussed in this paper, which combines a traditional filterbank with a convolutional neural network, was the top-performing model in the 2017 MIREX Multiple Fundamental Frequency Estimation evaluation. This class of models shares parameters in the log-frequency domain, which exploits the frequency invariance of music to reduce the number of model parameters and avoid overfitting to the training data. All models in this paper were trained with supervision by labeled data from the MusicNet dataset, augmented by random label-preserving pitch-shift transformations.},
+  title     = {Invariances and data augmentation for supervised music transcription},
+  author    = {John Thickstun and Zaid Harchaoui and Dean P Foster and Sham M Kakade},
+  booktitle = {International Conference on Acoustics, Speech and Signal Processing},
+  publisher = {IEEE},
+  pages     = {2241--2245},
+  year      = {2018},
+  abbr      = {ICASSP},
+  arxiv     = {1711.04845},
+  code      = {https://github.com/jthickstun/thickstun2018invariances},
+  selected  = {true}
+}
+
+@inproceedings{thickstun2017learning,
+  abstract={This paper introduces a new large-scale music dataset, MusicNet, to serve as a source of supervision and evaluation of machine learning methods for music research. MusicNet consists of hundreds of freely-licensed classical music recordings by 10 composers, written for 11 instruments, together with instrument/note annotations resulting in over 1 million temporal labels on 34 hours of chamber music performances under various studio and microphone conditions. The paper defines a multi-label classification task to predict notes in musical recordings, along with an evaluation protocol, and benchmarks several machine learning architectures for this task: i) learning from spectrogram features; ii) end to-end learning with a neural net; iii) end-to-end learning with a convolutional neural net. These experiments show that end-to-end models trained for note prediction learn frequency selective filters as a low-level representation of audio.},
+  author    = {John Thickstun and Zaid Harchaoui and Sham M Kakade},
+  title     = {Learning features of music from scratch},
+  booktitle = {International Conference on Learning Representations},
+  publisher = {OpenReview.net},
+  year      = {2017},
+  abbr      = {ICLR},
+  arxiv     = {1611.09827},
+  code      = {https://github.com/jthickstun/thickstun2017learning},
+  poster    = {thickstun2017learning_poster.pdf},
+  website   = {https://zenodo.org/record/5120004#.YaaHUlOIZpR},
+  selected  = {true}
+}
+

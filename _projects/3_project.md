@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: musicnet
+description: Musical scores comprise a dense set of labels on performances of classical western music. These labelings are analogous to semantic segmentations of visual imagery. However, in order to use a score as a segmentation map, we must first align it to particular audio recording by warping precise timings in the score onto expressive timings chosen by the performers. This is the music alignment problem. Using an alignment algorithm, we created the MusicNet dataset by aligning scores to a collection of freely-licensed recordings. We can use these labels to, for example, train an automatic music transcription system. In work appearing at ICASSP 2018, we describe a state-of-the-art transcription model trained using MusicNet that to-date (2019) is the best-performing algorithm in the MIREX transcription challenge.
+img: assets/img/musicnet.png
+importance: 1
+redirect: https://zenodo.org/record/5120004#.YXDPwKBlBpQ
 category: work
 ---
 
@@ -47,7 +47,6 @@ To give your project a background in the portfolio page, just add the img tag to
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
