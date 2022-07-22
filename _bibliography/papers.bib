@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{benster2022reconstruction,
+  abstract  = {All visual information in mammals is encoded in the aggregate pattern of retinal ganglion cell (RGC) firing. How this information is decoded to yield percepts remains incompletely understood. We have trained convolutional neural networks with multielectrode array-recorded murine RGC responses to projected images. The trained model accurately reconstructed novel facial images solely from RGC firing data. In this model, subpopulations of cells with faster firing rates are largely sufficient for accurate reconstruction, and ON- and OFF-cells contribute complementary and overlapping information to image reconstruction. Information content for reconstruction correlates with overall firing rate, and locality of information contributing to reconstruction varies substantially across the image and retina. This model demonstrates that artificial neural networks are capable of learning multicellular sensory neural encoding, and provides a viable model for understanding visual information encoding.},
+  title     = {Reconstruction of visual images from mouse retinal ganglion cell spiking activity using convolutional neural networks},
+  author    = {Tyler Benster and Darwin Babino and John Thickstun and Matthew Hunt and Xiyang Liu and Zaid Harchaoui and Sewoong Oh and Russell N Van Gelder},
+  year      = {2022},
+  abbr      = {bioRxiv},
+  pdf       = {https://www.biorxiv.org/content/10.1101/2022.06.10.482188v1.abstract},
+  code      = {https://github.com/tbenst/2021-retina-reconstructions}
+}
+
 @article{li2022diffusion,
   abstract  = {Controlling the behavior of language models (LMs) without re-training is a major open problem in natural language generation. While recent works have demonstrated successes on controlling simple sentence attributes (e.g., sentiment), there has been little progress on complex, fine-grained controls (e.g., syntactic structure). To address this challenge, we develop a new non-autoregressive language model based on continuous diffusions that we call Diffusion-LM. Building upon the recent successes of diffusion models in continuous domains, Diffusion-LM iteratively denoises a sequence of Gaussian vectors into word vectors, yielding a sequence of intermediate latent variables. The continuous, hierarchical nature of these intermediate variables enables a simple gradient-based algorithm to perform complex, controllable generation tasks. We demonstrate successful control of Diffusion-LM for six challenging fine-grained control tasks, significantly outperforming prior work.},
   title     = {Diffusion-LM improves controllable text generation},
