@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /service/
-title: academic service
-description: Professional and departmental service.
+title: service
+description: Professional and departmental academic service.
 nav: true
 ---
 
