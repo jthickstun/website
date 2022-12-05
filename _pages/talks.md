@@ -6,6 +6,10 @@ description: Invited talks and presentations.
 nav: true
 ---
 
+<b>Controlling Generative Models for Content Creation.</b> Clear Ventures (Palo Alto, CA). October 24, 2022.
+
+<b>Controlling Generative Models in Diverse Media Domains.</b>  Meta (New York, NY). October 18, 2022.
+
 <b>Audio Source Separation with Deep Generative Priors.</b> <a href="https://groups.google.com/g/music_reading_group">Mila Music + AI Reading Group</a> (Quebec, Canada). August 19, 2022.
 
 <b>Classifier-Guided Controllable Text Generation with Diffusion-LM.</b> <a href="https://mosaic.allenai.org/">Mosaic Team at AI2</a> (Seattle, Washington). August 3, 2022.
