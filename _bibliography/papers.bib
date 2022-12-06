@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{donahue2022melody,
+  abstract  = {Despite the central role that melody plays in music perception, it remains an open challenge in music information retrieval to reliably detect the notes of the melody present in an arbitrary music recording. A key challenge in melody transcription is building methods which can handle broad audio containing any number of instrument ensembles and musical styles - existing strategies work well for some melody instruments or styles but not all. To confront this challenge, we leverage representations from Jukebox (Dhariwal et al. 2020), a generative model of broad music audio, thereby improving performance on melody transcription by 20% relative to conventional spectrogram features. Another obstacle in melody transcription is a lack of training data - we derive a new dataset containing 50 hours of melody transcriptions from crowdsourced annotations of broad music. The combination of generative pre-training and a new dataset for this task results in 77% stronger performance on melody transcription relative to the strongest available baseline. By pairing our new melody transcription approach with solutions for beat detection, key estimation, and chord recognition, we build Sheet Sage, a system capable of transcribing human-readable lead sheets directly from music audio.},
+  title     = {Melody transcription via generative pre-training},
+  author    = {Chris Donahue and John Thickstun and Percy Liang},
+  booktitle = {International Society for Music Information Retrieval},
+  year      = {2022},
+  abbr      = {ISMIR},
+  arxiv     = {2212.01884},
+  code      = {https://github.com/chrisdonahue/sheetsage},
+  website   = {https://chrisdonahue.com/sheetsage},
+  selected  = {true}
+}
+
 @article{benster2022reconstruction,
   abstract  = {All visual information in mammals is encoded in the aggregate pattern of retinal ganglion cell (RGC) firing. How this information is decoded to yield percepts remains incompletely understood. We have trained convolutional neural networks with multielectrode array-recorded murine RGC responses to projected images. The trained model accurately reconstructed novel facial images solely from RGC firing data. In this model, subpopulations of cells with faster firing rates are largely sufficient for accurate reconstruction, and ON- and OFF-cells contribute complementary and overlapping information to image reconstruction. Information content for reconstruction correlates with overall firing rate, and locality of information contributing to reconstruction varies substantially across the image and retina. This model demonstrates that artificial neural networks are capable of learning multicellular sensory neural encoding, and provides a viable model for understanding visual information encoding.},
   title     = {Reconstruction of visual images from mouse retinal ganglion cell spiking activity using convolutional neural networks},
