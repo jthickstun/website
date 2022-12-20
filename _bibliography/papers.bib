@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{lee2022evaluating,
+  abstract  = {Many real-world applications of language models (LMs), such as code autocomplete and writing assistance, involve human-LM interaction, but the main LM benchmarks are non-interactive, where a system produces output without human intervention. To evaluate human-LM interaction, we develop a framework, Human-AI Language-based Interaction Evaluation (H-LINE), that expands non-interactive evaluation along three dimensions, capturing (i) the interactive process, not only the final output; (ii) the first-person subjective experience, not just a third-party assessment; and (iii) notions of preference beyond quality. We then design five tasks ranging from goal-oriented to open-ended to capture different forms of interaction. On four state-of-the-art LMs (three variants of OpenAI's GPT-3 and AI21's J1-Jumbo), we find that non-interactive performance does not always result in better human-LM interaction and that first-person and third-party metrics can diverge, suggesting the importance of examining the nuances of human-LM interaction.},
+  title     = {Evaluating Human-Language Model Interaction},
+  author    = {Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang},
+  year      = {2022},
+  abbr      = {arXiv},
+  arxiv     = {2212.09746},
+  code      = {https://github.com/minggg/human-lm-interaction}
+}
+
 @inproceedings{donahue2022melody,
   abstract  = {Despite the central role that melody plays in music perception, it remains an open challenge in music information retrieval to reliably detect the notes of the melody present in an arbitrary music recording. A key challenge in melody transcription is building methods which can handle broad audio containing any number of instrument ensembles and musical styles - existing strategies work well for some melody instruments or styles but not all. To confront this challenge, we leverage representations from Jukebox (Dhariwal et al. 2020), a generative model of broad music audio, thereby improving performance on melody transcription by 20% relative to conventional spectrogram features. Another obstacle in melody transcription is a lack of training data - we derive a new dataset containing 50 hours of melody transcriptions from crowdsourced annotations of broad music. The combination of generative pre-training and a new dataset for this task results in 77% stronger performance on melody transcription relative to the strongest available baseline. By pairing our new melody transcription approach with solutions for beat detection, key estimation, and chord recognition, we build Sheet Sage, a system capable of transcribing human-readable lead sheets directly from music audio.},
   title     = {Melody transcription via generative pre-training},
@@ -97,7 +107,7 @@
   title     = {Rethinking evaluation methodology for audio-to-score alignment},
   author    = {John Thickstun and Jennifer Brennan and Harsh Verma},
   year      = {2020},
-  abbr      = {ArXiv},
+  abbr      = {arXiv},
   arxiv     = {2009.14374},
   code      = {https://github.com/jthickstun/alignment-eval}
 }
