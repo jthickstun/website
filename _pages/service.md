@@ -24,7 +24,7 @@ Workshop reviewing
 
   - NeurIPS ML Safety Workshop, 2022.
 
-#### Stanford Departmental Service
+#### Stanford Computer Science Departmental Service
 
 <a href="https://stanfordcsmentoring.com/">Undergraduate Mentoring</a>: 2021-2022.
 
