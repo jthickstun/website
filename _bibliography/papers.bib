@@ -1,6 +1,19 @@
 ---
 ---
 
+@inproceedings{hewitt2023backpack,
+  abstract  = {We present Backpacks: a new neural architecture that marries strong modeling performance with an interface for interpretability and control. Backpacks learn multiple non-contextual sense vectors for each word in a vocabulary, and represent a word in a sequence as a context-dependent, non-negative linear combination of sense vectors in this sequence. We find that, after training, sense vectors specialize, each encoding a different aspect of a word. We can interpret a sense vector by inspecting its (non-contextual, linear) projection onto the output space, and intervene on these interpretable hooks to change the model's behavior in predictable ways. We train a 170M-parameter Backpack language model on OpenWebText, matching the loss of a GPT-2 small (124M parameter) Transformer. On lexical similarity evaluations, we find that Backpack sense vectors outperform even a 6B-parameter Transformer LM's word embeddings. Finally, we present simple algorithms that intervene on sense vectors to perform controllable text generation and debiasing. For example, we can edit the sense vocabulary to tend more towards a topic, or localize a source of gender bias to a sense vector and globally suppress that sense.},
+  title     = {Backpack Language Models},
+  author    = {John Hewitt and John Thickstun and Christopher D. Manning and Percy Liang},
+  booktitle = {Proceedings of the Association for Computational Linguistics},
+  year      = {2023},
+  abbr      = {ACL},
+  arxiv     = {2305.16765},
+  code      = {https://github.com/john-hewitt/backpacks-flash-attn},
+  website   = {http://backpackmodels.science},
+  selected  = {true}
+}
+
 @article{pillutla2022mauve,
   abstract  = {Generative AI has matured to a point where large-scale models can generate text that seems indistinguishable from human-written text and remarkably photorealistic images. Automatically measuring how close the distribution of generated data is to the target real data distribution is a key step in diagnosing existing models and developing better models. We present MAUVE, a family of comparison measures between pairs of distributions such as those encountered in the generative modeling of text or images. These scores are statistical summaries of divergence frontiers capturing two types of errors in generative modeling. We explore four approaches to statistically estimate these scores: vector quantization, non-parametric estimation, classifier-based estimation, and parametric Gaussian approximations. We provide statistical bounds for the vector quantization approach. Empirically, we find that the proposed scores paired with a range of f-divergences and statistical estimation methods can quantify the gaps between the distributions of human-written text and those of modern neural language models by correlating with human judgments and identifying known properties of the generated texts. We conclude the paper by demonstrating its applications to other AI domains and discussing practical recommendations.},
   title     = {MAUVE Scores for Generative Models: Theory and Practice},
