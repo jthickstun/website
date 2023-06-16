@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{thickstun2023anticipatory,
+  abstract  = {We introduce anticipation: a method for constructing a controllable generative model of a temporal point process (the event process) conditioned asynchronously on realizations of a second, correlated process (the control process). We achieve this by interleaving sequences of events and controls, such that controls appear following stopping times in the event sequence. This work is motivated by problems arising in the control of symbolic music generation. We focus on infilling control tasks, whereby the controls are a subset of the events themselves, and conditional generation completes a sequence of events given the fixed control events. We train anticipatory infilling models using the large and diverse Lakh MIDI music dataset. These models match the performance of autoregressive models for prompted music generation, with the additional capability to perform infilling control tasks, including accompaniment. Human evaluators report that an anticipatory model produces accompaniments with similar musicality to even music composed by humans over a 20-second clip.},
+  title     = {Anticipatory Music Transformer},
+  author    = {John Thickstun and David Hall and Chris Donahue and Percy Liang},
+  journal   = {arXiv preprint arXiv:2306.08620},
+  year      = {2023},
+  abbr      = {arXiv},
+  arxiv     = {2306.08620},
+  code      = {https://github.com/jthickstun/anticipation},
+  website   = {https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html},
+  selected  = {true}
+}
+
 @inproceedings{hewitt2023backpack,
   abstract  = {We present Backpacks: a new neural architecture that marries strong modeling performance with an interface for interpretability and control. Backpacks learn multiple non-contextual sense vectors for each word in a vocabulary, and represent a word in a sequence as a context-dependent, non-negative linear combination of sense vectors in this sequence. We find that, after training, sense vectors specialize, each encoding a different aspect of a word. We can interpret a sense vector by inspecting its (non-contextual, linear) projection onto the output space, and intervene on these interpretable hooks to change the model's behavior in predictable ways. We train a 170M-parameter Backpack language model on OpenWebText, matching the loss of a GPT-2 small (124M parameter) Transformer. On lexical similarity evaluations, we find that Backpack sense vectors outperform even a 6B-parameter Transformer LM's word embeddings. Finally, we present simple algorithms that intervene on sense vectors to perform controllable text generation and debiasing. For example, we can edit the sense vocabulary to tend more towards a topic, or localize a source of gender bias to a sense vector and globally suppress that sense.},
   title     = {Backpack Language Models},
@@ -18,6 +31,7 @@
   abstract  = {Generative AI has matured to a point where large-scale models can generate text that seems indistinguishable from human-written text and remarkably photorealistic images. Automatically measuring how close the distribution of generated data is to the target real data distribution is a key step in diagnosing existing models and developing better models. We present MAUVE, a family of comparison measures between pairs of distributions such as those encountered in the generative modeling of text or images. These scores are statistical summaries of divergence frontiers capturing two types of errors in generative modeling. We explore four approaches to statistically estimate these scores: vector quantization, non-parametric estimation, classifier-based estimation, and parametric Gaussian approximations. We provide statistical bounds for the vector quantization approach. Empirically, we find that the proposed scores paired with a range of f-divergences and statistical estimation methods can quantify the gaps between the distributions of human-written text and those of modern neural language models by correlating with human judgments and identifying known properties of the generated texts. We conclude the paper by demonstrating its applications to other AI domains and discussing practical recommendations.},
   title     = {MAUVE Scores for Generative Models: Theory and Practice},
   author    = {Krishna Pillutla and Lang Liu and John Thickstun and Sean Welleck and Swabha Swayamdipta and Rowan Zellers and Sewoong Oh and Yejin Choi and Zaid Harchaoui},
+  journal   = {arXiv preprint arXiv:2212.14578},
   year      = {2022},
   abbr      = {arXiv},
   arxiv     = {2212.14578},
@@ -28,6 +42,7 @@
   abstract  = {Many real-world applications of language models (LMs), such as code autocomplete and writing assistance, involve human-LM interaction, but the main LM benchmarks are non-interactive, where a system produces output without human intervention. To evaluate human-LM interaction, we develop a framework, Human-AI Language-based Interaction Evaluation (H-LINE), that expands non-interactive evaluation along three dimensions, capturing (i) the interactive process, not only the final output; (ii) the first-person subjective experience, not just a third-party assessment; and (iii) notions of preference beyond quality. We then design five tasks ranging from goal-oriented to open-ended to capture different forms of interaction. On four state-of-the-art LMs (three variants of OpenAI's GPT-3 and AI21's J1-Jumbo), we find that non-interactive performance does not always result in better human-LM interaction and that first-person and third-party metrics can diverge, suggesting the importance of examining the nuances of human-LM interaction.},
   title     = {Evaluating Human-Language Model Interaction},
   author    = {Mina Lee and Megha Srivastava and Amelia Hardy and John Thickstun and Esin Durmus and Ashwin Paranjape and Ines Gerard-Ursin and Xiang Lisa Li and Faisal Ladhak and Frieda Rong and Rose E. Wang and Minae Kwon and Joon Sung Park and Hancheng Cao and Tony Lee and Rishi Bommasani and Michael Bernstein and Percy Liang},
+  journal   = {arXiv preprint arXiv:2212.09746},
   year      = {2022},
   abbr      = {arXiv},
   arxiv     = {2212.09746},
@@ -129,6 +144,7 @@
   abstract  = {This paper offers a precise, formal definition of an audio-to-score alignment. While the concept of an alignment is intuitively grasped, this precision affords us new insight into the evaluation of audio-to-score alignment algorithms. Motivated by these insights, we introduce new evaluation metrics for audio-to-score alignment. Using an alignment evaluation dataset derived from pairs of KernScores and MAESTRO performances, we study the behavior of our new metrics and the standard metrics on several classical alignment algorithms.},
   title     = {Rethinking evaluation methodology for audio-to-score alignment},
   author    = {John Thickstun and Jennifer Brennan and Harsh Verma},
+  journal   = {arXiv preprint arXiv:2009.14374},
   year      = {2020},
   abbr      = {arXiv},
   arxiv     = {2009.14374},
