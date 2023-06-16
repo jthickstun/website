@@ -3,7 +3,7 @@
 
 @article{thickstun2023anticipatory,
   abstract  = {We introduce anticipation: a method for constructing a controllable generative model of a temporal point process (the event process) conditioned asynchronously on realizations of a second, correlated process (the control process). We achieve this by interleaving sequences of events and controls, such that controls appear following stopping times in the event sequence. This work is motivated by problems arising in the control of symbolic music generation. We focus on infilling control tasks, whereby the controls are a subset of the events themselves, and conditional generation completes a sequence of events given the fixed control events. We train anticipatory infilling models using the large and diverse Lakh MIDI music dataset. These models match the performance of autoregressive models for prompted music generation, with the additional capability to perform infilling control tasks, including accompaniment. Human evaluators report that an anticipatory model produces accompaniments with similar musicality to even music composed by humans over a 20-second clip.},
-  title     = {Anticipatory Music Transformer},
+  title     = {Anticipatory music transformer},
   author    = {John Thickstun and David Hall and Chris Donahue and Percy Liang},
   journal   = {arXiv preprint arXiv:2306.08620},
   year      = {2023},
@@ -16,7 +16,7 @@
 
 @inproceedings{hewitt2023backpack,
   abstract  = {We present Backpacks: a new neural architecture that marries strong modeling performance with an interface for interpretability and control. Backpacks learn multiple non-contextual sense vectors for each word in a vocabulary, and represent a word in a sequence as a context-dependent, non-negative linear combination of sense vectors in this sequence. We find that, after training, sense vectors specialize, each encoding a different aspect of a word. We can interpret a sense vector by inspecting its (non-contextual, linear) projection onto the output space, and intervene on these interpretable hooks to change the model's behavior in predictable ways. We train a 170M-parameter Backpack language model on OpenWebText, matching the loss of a GPT-2 small (124M parameter) Transformer. On lexical similarity evaluations, we find that Backpack sense vectors outperform even a 6B-parameter Transformer LM's word embeddings. Finally, we present simple algorithms that intervene on sense vectors to perform controllable text generation and debiasing. For example, we can edit the sense vocabulary to tend more towards a topic, or localize a source of gender bias to a sense vector and globally suppress that sense.},
-  title     = {Backpack Language Models},
+  title     = {Backpack language models},
   author    = {John Hewitt and John Thickstun and Christopher D. Manning and Percy Liang},
   booktitle = {Proceedings of the Association for Computational Linguistics},
   year      = {2023},
