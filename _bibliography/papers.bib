@@ -1,6 +1,19 @@
 ---
 ---
 
+@article{kuditipudi2023robust,
+  abstract  = {We propose a methodology for planting watermarks in text from an autoregressive language model that are robust to perturbations without changing the distribution over text up to a certain maximum generation budget. We generate watermarked text by mapping a sequence of random numbers -- which we compute using a randomized watermark key -- to a sample from the language model. To detect watermarked text, any party who knows the key can align the text to the random number sequence. We instantiate our watermark methodology with two sampling schemes: inverse transform sampling and exponential minimum sampling. We apply these watermarks to three language models -- OPT-1.3B, LLaMA-7B and Alpaca-7B -- to experimentally validate their statistical power and robustness to various paraphrasing attacks. Notably, for both the OPT-1.3B and LLaMA-7B models, we find we can reliably detect watermarked text (p≤0.01) from 35 tokens even after corrupting between 40-50% of the tokens via random edits (i.e., substitutions, insertions or deletions). For the Alpaca-7B model, we conduct a case study on the feasibility of watermarking responses to typical user instructions. Due to the lower entropy of the responses, detection is more difficult: around 25% of the responses -- whose median length is around 100 tokens -- are detectable with p≤0.01, and the watermark is also less robust to certain automated paraphrasing attacks we implement.},
+  title     = {Robust Distortion-free Watermarks for Language Models},
+  author    = {Rohith Kuditipudi and John Thickstun and Tatsunori Hashimoto and Percy Liang},
+  journal   = {arXiv preprint arXiv:2307.15593},
+  year      = {2023},
+  abbr      = {arXiv},
+  arxiv     = {2307.15593},
+  code      = {https://github.com/jthickstun/watermark},
+  website   = {https://crfm.stanford.edu/2023/07/30/watermarking.html},
+  selected  = {true}
+}
+
 @article{thickstun2023anticipatory,
   abstract  = {We introduce anticipation: a method for constructing a controllable generative model of a temporal point process (the event process) conditioned asynchronously on realizations of a second, correlated process (the control process). We achieve this by interleaving sequences of events and controls, such that controls appear following stopping times in the event sequence. This work is motivated by problems arising in the control of symbolic music generation. We focus on infilling control tasks, whereby the controls are a subset of the events themselves, and conditional generation completes a sequence of events given the fixed control events. We train anticipatory infilling models using the large and diverse Lakh MIDI music dataset. These models match the performance of autoregressive models for prompted music generation, with the additional capability to perform infilling control tasks, including accompaniment. Human evaluators report that an anticipatory model produces accompaniments with similar musicality to even music composed by humans over a 20-second clip.},
   title     = {Anticipatory music transformer},
@@ -92,8 +105,7 @@
   year      = {2021},
   school    = {University of Washington},
   abbr      = {Dissertation},
-  pdf       = {thickstun_thesis.pdf},
-  selected  = {true}
+  pdf       = {thickstun_thesis.pdf}
 }
 
 @inproceedings{pillutla2021mauve,
