@@ -5,7 +5,7 @@ description: Generative models are powerful tools for revealing structure in dat
 
 img: assets/img/score.png
 importance: 3
-redirect: https://johnthickstun.com/anticipation
+redirect: https://crfm.stanford.edu/2023/06/16/anticipatory-music-transformer.html
 category: work
 ---
 
