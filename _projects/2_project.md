@@ -1,10 +1,11 @@
 ---
 layout: page
 title: music composition
-description: Generative models are powerful tools for revealing structure in data. Features learned by fitting an unsupervised generative modeling objective can be transferred to other tasks. Or, as see in the source separation project above, we can directly leverage these generative models as priors. A fun aspect of these models is that you can sample from them; a generative model over musical scores can be turned into a kind of automatic music composer (see left). Musical scores are highly structured, heterogenous objects. Their two-dimensional structure is reminiscent of visual data, but their time-series structure and sparsity are reminiscent of language. In contrast to both language and visual imagery, the number of scores in a particular musical genre is limited. This makes score modeling an inherently low-resource learning problem. In work appearing in ISMIR 2019, we discuss domain-specific modeling choices that help maximize what we can learn from limited data. 
+description: Generative models are powerful tools for revealing structure in data. Features learned by fitting an unsupervised generative modeling objective can be transferred to other tasks. Or, as seen in the source separation project above, we can directly leverage these generative models as priors. The anticipatory music transformer is a generative model of music. Just like ChatGPT generates text, our model is trained to generate music compositions. Unlike most music models, the anticipatory music transformer can infill missing parts of a composition. For example, given a melody, the model can generate an accompaniment to that melody. Previous music transformers generate continuations of music given the past. Our models are designed to also have foreknowledge of the future; we say that they anticipate the parts of the music that are already written. They use this knowledge to infill the rest of the music.
+
 img: assets/img/score.png
 importance: 3
-redirect: https://github.com/jthickstun/ismir2019coupled
+redirect: https://johnthickstun.com/anticipation
 category: work
 ---
 
