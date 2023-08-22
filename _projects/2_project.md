@@ -1,7 +1,7 @@
 ---
 layout: page
-title: music composition
-description: Generative models are powerful tools for revealing structure in data. Features learned by fitting an unsupervised generative modeling objective can be transferred to other tasks. Or, as seen in the source separation project above, we can directly leverage these generative models as priors. The anticipatory music transformer is a generative model of music. Just like ChatGPT generates text, our model is trained to generate music compositions. Unlike most music models, the anticipatory music transformer can infill missing parts of a composition. For example, given a melody, the model can generate an accompaniment to that melody. Previous music transformers generate continuations of music given the past. Our models are designed to also have foreknowledge of the future; we say that they anticipate the parts of the music that are already written. They use this knowledge to infill the rest of the music.
+title: controllable generation
+description: Generative models are powerful tools for revealing structure in data. Features learned by fitting an unsupervised generative modeling objective can be transferred to other tasks. Or, as seen in the source separation project above, we can directly leverage these generative models as priors. The anticipatory music transformer is a controllable generative model of music. Just like ChatGPT generates text, this model is trained to generate music compositions. Unlike most music models, the anticipatory music transformer can infill missing parts of a composition. For example, given a melody, this model can generate an accompaniment to that melody. Previous music transformers generate continuations of music given the past. Our models are designed to also have foreknowledge of the future; we say that they anticipate the parts of the music that are already written. They use this knowledge to infill the rest of the music.
 
 img: assets/img/score.png
 importance: 3
