@@ -6,9 +6,19 @@ description: Invited talks and presentations.
 nav: true
 ---
 
-<b>Controlling Generative Models for Content Creation.</b> Clear Ventures (Palo Alto, CA). October 24, 2022.
+<b>Anticipation and the Anticipatory Music Transformer</b>.
+  - University of Wisconsin (Madison, WI). November 10, 2023.
+  - MIT (Cambridge, MA). October 30, 2023.
+  - Harvard (Allston, MA). October 27, 2023.
+  - UC San Diego (La Jolla, CA). August 8, 2023.
 
-<b>Controlling Generative Models in Diverse Media Domains.</b>  Meta (New York, NY). October 18, 2022.
+<b>Distortion-free Watermarks for Language Models</b>. Google (Mountain View, CA). July 12, 2023.
+
+<b>Extending the Capabilities of Generative AI: Two Vignettes</b>. Radix Trading (Chicago, IL). June 8, 2023.
+
+<b>Generative Models for Controllable Content Creation.</b>
+  - Clear Ventures (Palo Alto, CA). October 24, 2022.
+  - Meta (New York, NY). October 18, 2022.
 
 <b>Audio Source Separation with Deep Generative Priors.</b> <a href="https://groups.google.com/g/music_reading_group">Mila Music + AI Reading Group</a> (Quebec, Canada). August 19, 2022.
 
