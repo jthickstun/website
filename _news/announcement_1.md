@@ -1,7 +1,13 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2023-12-07 12:00:00-0000
 inline: true
 ---
 
-A simple inline announcement.
+HAI featured my recent work on the Anticipatory Music Transformer!
+
+<br><br>
+
+<iframe width="500" height="300"
+  src="https://www.youtube.com/embed/zDeKNUrbnNk">
+</iframe> 
