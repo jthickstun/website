@@ -4,7 +4,7 @@ date: 2023-12-07 12:00:00-0000
 inline: true
 ---
 
-HAI featured my recent work on the Anticipatory Music Transformer!
+<a href="https://hai.stanford.edu/">Stanford HAI</a> featured my recent work on the Anticipatory Music Transformer!
 
 <br><br>
 
